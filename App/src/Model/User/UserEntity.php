@@ -2,7 +2,8 @@
 
 namespace App\Model\User;
 
-use App\Types\UserName;
+use App\ValueObjects\Password;
+use App\ValueObjects\UserName;
 use DateTime;
 
 class UserEntity
